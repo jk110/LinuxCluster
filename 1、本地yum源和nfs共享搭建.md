@@ -107,7 +107,7 @@ redis01
 ```shell
 yum install -y pcre* openssl* gcc gcc+    
 groupadd nginx
-useradd -g nginx -s /sbin/nologin -M
+useradd -g nginx -s /sbin/nologin -M nginx
 cd /usr/local/src
 wget http://nginx.org/download/nginx-1.16.1.tar.gz
 tar -zxf nginx-1.16.1.tar.gz
