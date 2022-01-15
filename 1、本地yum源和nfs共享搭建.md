@@ -112,7 +112,7 @@ cd /usr/local/src
 wget http://nginx.org/download/nginx-1.16.1.tar.gz
 tar -zxf nginx-1.16.1.tar.gz
 cd nginx-1.16.1.tar.gz
-/configure --prefix=/usr/local/nginx --user=www --group=www --with-http_stub_status_module --with-http_ssl_module
+./configure
 make
 make install 
 echo "/usr/local/nginx/sbin/nginx" >> /etc/rc.local
